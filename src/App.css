@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .footer {
@@ -13,19 +13,16 @@ html, body {
 }
 
 .navBar {
-  width: 100vw;
   height: fit-content;
-  display: block;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   background-color: #0b090a;
   position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
 }
 
 .navBtnsContainer {
   display: flex;
-  width: 100vw;
   justify-content: center;
   padding-top: 10px;
 }
@@ -33,13 +30,13 @@ html, body {
 .navLogo {
   margin-top: 30px;
   display: flex;
-  width: 100vw;
   justify-content: center;
 }
 
 .homeBody {
   background-color: #0b090a;
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: row;
