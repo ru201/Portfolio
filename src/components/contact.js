@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css'
-import Img from "./image";
-import Pic from "../pictures/about.jpg"
+// import Img from "./image";
+// import Pic from "../pictures/about.jpg"
 
 export default function Contact () {
     return (
@@ -12,7 +12,7 @@ export default function Contact () {
             <h2 className="h2Msg">Feel free to reach out to me anytime!<br/><br/>Here are some links to my socials.<br/><br/>My email is rubinroy12@gmail.com</h2>
         </div>
         <div className="portfolioPic">
-            <Img src={Pic} alt={"Picture of Me"} className={"pic"} />
+            {/* <Img src={Pic} alt={"Picture of Me"} className={"pic"} /> */}
         </div>
     </div>
     )
