@@ -3,13 +3,16 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #625D5D;
   overflow-x: clip;
 }
 
 .footer {
-  height: 16vh;
+  display: block;
+  height: 20vh;
   width: 100vw;
   background-color: #625D5D;
+  overflow: hidden;
 }
 
 .navBar {
@@ -35,13 +38,14 @@ html, body {
 
 .homeBody {
   background-color: #0b090a;
-  height: 100vh;
+  height: 1000px;
   width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 .homeMsg {
@@ -76,8 +80,9 @@ html, body {
 }
 
 .portfolioPic {
-  height: 800px;
-  width: 400px;
+  height: 80%;
+  width: 30%;
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,8 +130,9 @@ html, body {
   .homeMsg {
     color: whitesmoke;
     padding-top: 3rem;
-    padding-left: 1.5rem;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
     margin-bottom: 70px;
     flex: 50%;
     max-width: 400px;
@@ -135,8 +141,8 @@ html, body {
   .portfolioPic {
     height: 400px;
     width: 200px;
-    padding-right: 0;
     margin-bottom: 50px;
+    padding-top: 100px;
     padding-right: 1.5rem;
   }
   
