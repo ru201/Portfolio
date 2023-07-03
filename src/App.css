@@ -48,7 +48,7 @@ html, body {
 }
 
 .homeMsg {
-  color: whitesmoke;
+  color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
