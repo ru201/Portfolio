@@ -135,7 +135,7 @@ html, body {
   width: 80px;
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 560px) {
   .portfolioPic {
     margin-top: -50px;
   }
