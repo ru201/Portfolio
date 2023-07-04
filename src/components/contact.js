@@ -2,6 +2,8 @@ import React from "react";
 import '../App.css'
 // import Img from "./image";
 // import Pic from "../pictures/about.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact () {
     return (
@@ -13,6 +15,9 @@ export default function Contact () {
         </div>
         <div className="portfolioPic">
             {/* <Img src={Pic} alt={"Picture of Me"} className={"pic"} /> */}
+            <a href="https://www.instagram.com/" rel="noreferrer" target='_blank' ><FontAwesomeIcon icon={faInstagram} className="social_icon ig" /></a>
+            <a href="https://www.facebook.com/rubin.roy.9" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faFacebook} className="social_icon fb" /></a>
+            <a href="https://www.linkedin.com/in/rubin-roy-51592b23b" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faLinkedin} className="social_icon lin" /></a>
         </div>
     </div>
     )
