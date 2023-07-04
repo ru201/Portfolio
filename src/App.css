@@ -107,6 +107,10 @@ html, body {
   color: #0A66C2;
 }
 
+.email:hover {
+  color: #74c23d;
+}
+
 .portfolioPic {
   height: 80%;
   width: 30%;
