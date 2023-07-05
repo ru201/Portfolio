@@ -16,10 +16,10 @@ export default function Contact () {
         </div>
         <div className="portfolioPic">
             {/* <Img src={Pic} alt={"Picture of Me"} className={"pic"} /> */}
-            <a href="https://www.instagram.com/" rel="noreferrer" target='_blank' ><FontAwesomeIcon icon={faInstagram} className="social_icon ig" /></a>
-            <a href="https://www.facebook.com/rubin.roy.9" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faFacebook} className="social_icon fb" /></a>
-            <a href="https://www.linkedin.com/in/rubin-roy-51592b23b" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faLinkedin} className="social_icon lin" /></a>
-            <a href="https://mail.google.com/mail/u/0/?fs=1&to=rubinroy12@gmail.com&su=SUBJECT&body=BODY&tf=cm" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faEnvelope} className="social_icon email" /></a>
+            <a onclick="" href="https://www.instagram.com/" rel="noreferrer" target='_blank' ><FontAwesomeIcon icon={faInstagram} className="social_icon ig" /></a>
+            <a onclick="" href="https://www.facebook.com/rubin.roy.9" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faFacebook} className="social_icon fb" /></a>
+            <a onclick="" href="https://www.linkedin.com/in/rubin-roy-51592b23b" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faLinkedin} className="social_icon lin" /></a>
+            <a onclick="" href="https://mail.google.com/mail/u/0/?fs=1&to=rubinroy12@gmail.com&su=SUBJECT&body=BODY&tf=cm" rel="noreferrer" target='_blank'><FontAwesomeIcon icon={faEnvelope} className="social_icon email" /></a>
         </div>
     </div>
     )
